@@ -1,6 +1,6 @@
 ---
 title: 有生之年第一篇
-published: 2024-8-25
+published: 2024-08-25
 description: 哈哈哈哈哈哈哈哈哈哈终于成功了-我滴第一篇博客
 tags: [第一篇博客]
 category: Front-end
