@@ -4,7 +4,8 @@ import tailwind from "@astrojs/tailwind"
 import swup from '@swup/astro';
 import Compress from "astro-compress"
 import icon from "astro-icon"
-import { defineConfig } from "astro/config"
+import { defineConfig } from "astro/config";
+import netlify from '@astrojs/netlify';
 import Color from "colorjs.io"
 import rehypeAutolinkHeadings from "rehype-autolink-headings"
 import rehypeComponents from "rehype-components"; /* Render the custom directive content */
@@ -31,6 +32,8 @@ const oklchToHex = (str) => {
 
 // https://astro.build/config
 export default defineConfig({
+  output: 'server',
+  adapter: netlify(),
   site: "https://fuwari.vercel.app/",
   base: "/",
   trailingSlash: "always",
