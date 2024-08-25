@@ -33,7 +33,9 @@ const oklchToHex = (str) => {
 // https://astro.build/config
 export default defineConfig({
   output: 'server',
-  adapter: netlify(),
+  adapter: netlify({
+    edgeMiddleware: true
+  })
   site: "https://fuwari.vercel.app/",
   base: "/",
   trailingSlash: "always",
