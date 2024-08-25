@@ -35,7 +35,7 @@ export default defineConfig({
   output: 'server',
   adapter: netlify({
     edgeMiddleware: true
-  })
+  }),
   site: "https://fuwari.vercel.app/",
   base: "/",
   trailingSlash: "always",
