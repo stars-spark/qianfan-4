@@ -7,8 +7,9 @@ tags: [第一篇博客]
 category: Front-end
 draft: false
 ---
-
+:::note
 ###没什么想说的，就是吐槽一下大陆Netlify配置太麻烦了
+:::
 ```python
 print('Hello! My Blog!!!!!')
 ```
